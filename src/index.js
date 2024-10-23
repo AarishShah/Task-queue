@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json());
 
 // Task route
-app.use('/api', taskRouter);
+app.use('/api/v1', taskRouter);
 
 // Error handling middleware
 app.use((err, req, res, next) => {
