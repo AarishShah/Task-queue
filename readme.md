@@ -21,21 +21,21 @@ Task_Queue/
 ├── node_modules/
 ├── src/
 │   ├── db/
-│   │   └── mongoose.js           # MongoDB connection setup
+│   │   └── mongoose.js            # MongoDB connection setup
 │   ├── middleware/
-│   │   └── rateLimiter.js          # Middleware for rate limiting
+│   │   └── rateLimiter.js         # Middleware for rate limiting
 │   ├── models/
 │   │   └── taskModel.js           # MongoDB schema for task queue
 │   ├── routers/
-│   │   └── taskRouter.js           # Task API route
+│   │   └── taskRouter.js          # Task API route
 │   ├── utils/
-│   │   └── logger.js                  # Task logging utility
-│   └── index.js                         # Main entry point of the app
-├── .env                                    # Environment variables (MongoDB connection URI)
-├── .gitignore                           # Ignore node_modules, .env, and log files
+│   │   └── logger.js              # Task logging utility
+│   └── index.js                   # Main entry point of the app
+├── .env                           # Environment variables (MongoDB connection URI)
+├── .gitignore                     # Ignore node_modules, .env, and log files
 ├── package-lock.json
-├── package.json                      # Dependencies and scripts
-└── task_logs.log                     # File to store task completion logs
+├── package.json                   # Dependencies and scripts
+└── task_logs.log                  # File to store task completion logs
 
 ```
 
